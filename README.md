@@ -49,11 +49,17 @@ Esto permite ubicar con precisión las zonas de "ANCLA" y "TINTE" sobre el mater
 
 3. Configuración de variables del experimento
 Para procesar correctamente los datos físicos, es necesario actualizar las variables globales al inicio del código con los valores específicos de la medición realizada. Se deben ingresar los siguientes datos:
+
 TOTAL_IMAGENES =   # Número total de fotogramas capturados 
+
 NUM_CICLOS =         # Cantidad de ciclos de calentamiento/enfriamiento 
+
 T_INICIAL =      # Temperatura base (°C) 
+
 T_FINAL =          # Temperatura máxima alcanzada (°C) 
+
 FOTOS_EN_MESETA =     # Imágenes tomadas durante la estabilización térmica 
+
 -----------------------------
 
 El código convierte el tiempo en temperatura usando la ecuación de una recta:
